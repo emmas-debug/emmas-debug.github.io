@@ -1,0 +1,228 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kibira Emma | Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kibira Emma</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Project</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Welcome to My World</h1>
+        <p>Born on 24th December 2007, I am a proud Ugandan and student at St. Stephen's Senior School, Mukono. I am passionate about ICT, machines, and exploring new things.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Kibira Emma | SmartChem Explorer</p>
+    </footer>
+</body>
+</html>
+
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Kibira Emma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Project</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="profile">
+            <img src="profile.jpg" alt="Kibira Emma Profile Photo">
+        </div>
+        <p>I am Kibira Emma, a student of St. Stephen's Senior School Mukono, passionate about using technology to improve science education in Uganda. My project, SmartChem Explorer, helps learners do chemistry experiments virtually without needing internet access.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kibira Emma | SmartChem Explorer</p>
+    </footer>
+</body>
+</html>
+
+<!-- project.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project | SmartChem Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Projects</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Project</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>SmartChem Explorer</h2>
+        <p>An offline desktop app designed to simulate chemistry experiments such as titration, neutralization, and combustion. It is aligned with the Ugandan New Lower Secondary Curriculum.</p>
+
+        <h2>Lead-Acid Battery Project</h2>
+        <p>A practical project addressing electricity shortages by building a local model of a lead-acid battery to power school facilities like computer labs and reading areas.</p>
+
+        <h2>Hydroponic Fodder Production</h2>
+        <p>This innovation project promotes modern, soil-less fodder growing systems for livestock, especially targeting small-scale farmers in Uganda to boost animal nutrition affordably.</p>
+
+        <h2>Machine Learning & ICT Exploration</h2>
+        <p>As a self-learner, I am exploring machine learning concepts and tools, aiming to apply them in education and automation solutions in Uganda’s learning environment.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kibira Emma | SmartChem Explorer</p>
+    </footer>
+</body>
+</html>
+
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Kibira Emma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Project</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <form action="mailto:kibiraemmas@gmail.com" method="POST" enctype="text/plain">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="message">Your Feedback:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <input type="submit" value="Send Feedback">
+        </form>
+
+        <p>You can also reach me directly:</p>
+        <p>Email: kibiraemma@student.ssstephen.ac.ug</p>
+        <p>School: St. Stephen's Senior School, Dandira - Mukono</p>
+        <p>WhatsApp: +256 707650663
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kibira Emma | SmartChem Explorer</p>
+    </footer>
+</body>
+</html>
+
+<!-- style.css -->
+<style>
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f6f9;
+    color: #333;
+}
+header {
+    background-color: #00695c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.hero {
+    padding: 50px;
+    text-align: center;
+    background: linear-gradient(to right, #004d40, #00695c);
+    color: white;
+}
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.2em;
+    max-width: 700px;
+    margin: auto;
+}
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+.profile img {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 200px;
+    border-radius: 10px;
+}
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.contact {
+    background-color: #e0f2f1;
+    padding: 30px;
+    border-radius: 8px;
+}
+.contact p {
+    margin: 10px 0;
+}
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: #00695c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #004d40;
+}
+</style>
